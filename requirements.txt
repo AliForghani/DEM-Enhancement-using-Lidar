@@ -1,6 +1,6 @@
 streamlit
 geopandas
-pdal
+python-pdal
 xarray
 rasterio
 shapely
