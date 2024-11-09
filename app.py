@@ -3,7 +3,7 @@ import pandas as pd
 import geopandas as gpd
 import laspy
 import numpy as np
-import pdal
+#import pdal
 import json
 import rasterio
 import geopandas as gpd
