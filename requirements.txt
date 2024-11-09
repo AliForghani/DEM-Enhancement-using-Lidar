@@ -1,6 +1,7 @@
+pip==24.3.1
 streamlit
-geopandas
 PDAL
+geopandas
 xarray
 rasterio
 shapely
