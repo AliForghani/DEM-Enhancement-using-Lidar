@@ -1,12 +1,11 @@
-pip==24.3.1
 streamlit
-PDAL
-geopandas
-xarray
-rasterio
-shapely
-laspy
-numpy
-scipy
 pandas
+numpy
+python-pdal
+geopandas
+rasterio
+laspy
+shapely
 plotly
+rioxarray #make sure to install rioxarray as well so we can read tif files using xarray
+xarray   

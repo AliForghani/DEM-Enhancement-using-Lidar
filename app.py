@@ -10,12 +10,7 @@ import geopandas as gpd
 import os
 from pathlib import Path
 from shapely.geometry import Point, MultiPoint
-from rasterio.transform import from_origin
-from scipy.interpolate import griddata
-from scipy.spatial import KDTree
 import shutil
-from rasterio.merge import merge
-from rasterio.mask import mask
 import glob
 import xarray as xr
 from io import BytesIO
@@ -311,7 +306,6 @@ def make_plot():
 
 
 def plot_dem_with_boundary(fig, dem_file, col_index,show_legend):
-    """Function to plot DEM with polygon boundary on a specified subplot column."""
     
     # Step 1: Read the TIFF file using rasterio
     with rasterio.open(dem_file) as src:
